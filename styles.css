@@ -1,0 +1,213 @@
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+}
+
+.logo img {
+    max-width: 150px; 
+    margin-right: 5px;
+    padding-right: 50px;
+}
+
+.organization-name {
+    font-size: 35px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 24, 67);
+    font-weight: 100;
+    opacity: 90%;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007acc;
+}
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.hero {
+    background-image: url('https://t3.ftcdn.net/jpg/03/05/19/74/360_F_305197427_vrdI6huKlGIZCCVuA3lpwVkssx3dkkvV.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    text-align: center;
+    padding: 100px 0; 
+}
+
+
+.hero-content {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px; 
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    font-style: aqua;
+}
+
+.cta-button {
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #005d99;
+}
+
+
+
+.introduction, .timeline, .prizes, .faq {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuikFQYaHHtZtS2PRLJeQBP8qd1_D_R4BnuGKxWdVw4Q57EwVE53OAw5wBRVUjQgkHhLk&usqp=CAU'); 
+    
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(30, 56, 158, 0.5);
+}
+
+.introduction h2, .timeline h2, .prizes h2, .faq h2 {
+    color: #007acc;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.prizes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.prize-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.prize-box img {
+    max-width: 100%;
+    max-height: 150px;
+    margin-bottom: 10px;
+}
+
+.prize-box p {
+    color: #fff;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+.timeline {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.timeline-box {
+    background-color: #020303;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    opacity: 80%;
+}
+
+.timeline-box img {
+    max-width: 100%;
+    max-height: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.timeline-box p {
+    color: #6c92b9;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+
+
